@@ -1,20 +1,4 @@
-# EdgeAuth-Token-Java: Akamai Edge Authorization Token for Java
-
-[![Maven Central](https://img.shields.io/badge/maven%20central-0.2.0-brightgreen.svg)](http://search.maven.org/#artifactdetails%7Ccom.akamai%7Cedgeauth%7C0.2.0%7C)
-[![Build Status](https://travis-ci.org/akamai/EdgeAuth-Token-Java.svg?branch=master)](https://travis-ci.org/akamai/EdgeAuth-Token-Java)
-[![License](http://img.shields.io/:license-apache-blue.svg)](https://github.com/akamai/EdgeAuth-Token-Java/blob/master/LICENSE)
-
-EdgeAuth-Token-Java is Akamai Edge Authorization Token in the HTTP Cookie, Query String and Header for a client.
-You can configure it in the Property Manager at https://control.akamai.com.
-It's a behavior which is Auth Token 2.0 Verification.
-
-EdgeAuth-Token-Java supports Java 1.6+.
-
 <div style="text-align:center"><img src=https://github.com/AstinCHOI/akamai-asset/blob/master/edgeauth/edgeauth.png?raw=true /></div>
-
-
-## Build
-[Click Here](http://search.maven.org/#artifactdetails%7Ccom.akamai%7Cedgeauth%7C0.2.0%7C)
 
 
 ## Example
@@ -149,28 +133,3 @@ public static final Long NOW = 0L; // When using startTime, 0L means "from NOW".
 
 Returns the authorization token string.
 
-
-## Test
-"src/test" directory is only for the internal test.
-
-
-## Others
-If you use the **Segmented Media Protection** behavior in AMD(Adaptive Media Delivery) Product, **tokenName** should be '**hdnts**'.
-
-<div style="text-align:center"><img src=https://github.com/AstinCHOI/akamai-asset/blob/master/edgeauth/segmented_media_protection.png?raw=true/></div>
-
-
-## License
-Copyright 2018 Akamai Technologies, Inc.  All rights reserved.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
